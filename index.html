@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+            Vacation Worthy 
+    </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- css file  -->
+    <link type="text/css" rel="stylesheet" href="/style.css"/>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <div>
+        <img src="/photos/vw.jpg" alt="" width="60px" height="60px">
+      </div>
+
+      <a href="#" class="logo"><span>Vacation</span>Worthy</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email" />
+        <input type="password" class="box" placeholder="Enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forgot password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>When all else fails, take a vacation</h3>
+        <p>Discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">Explore more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="videos/agra.mp4"></span>
+        <span class="vid-btn" data-src="videos/hai.mp4"></span>
+        <span class="vid-btn" data-src="videos/bali.mp4"></span>
+        <span class="vid-btn" data-src="videos/kenya.mp4"></span>
+        <span class="vid-btn" data-src="videos/varasni.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="videos/tp.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="photos/backg.jpg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="photos/hampi.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Hampi</h3>
+            <p>
+              Full of historical monuments and ruins, the cityscape of Hampi
+              talks vividly about the country’s past and it is a sheer example of how even ruins can be so beautiful and mesmerising.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 5000.00 <span>&#8377 5900.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="photos/jodhpur.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Jodhpur</h3>
+            <p>
+                The monumental Mehrangarh fort; the Art Deco marvel called Umaid Bhawan; serene Bishnoi villages dotting the city's outskirts; craft trading centre of the desert region Rajasthan
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 6500.00 <span>&#8377 7500.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="photos/leh.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Ladakh</h3>
+            <p>
+                Being Bollywood’s personal pick lifted its exposure straight into the hearts of the people letting this secret escape of the vivid travellers’, right into the eyes of the youthful souls.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 15000.00 <span>&#8377 16000.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="photos/munnar.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Munnar</h3>
+            <p>
+                One of the famous hill stations in Kerala is Munnar. Surrounded by lush green valleys, spice plantations and wildlife, it is a slice of heaven for most travellers from the area. 
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 8000.00 <span>&#8377 9000.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="photos/cherapunkji.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Cherapunji</h3>
+            <p>
+                Explore the best places to visit in Cherrapunjee amongst its double decker root bridge, Dawki, cascading waterfalls and eco parks. 
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 8000.00 <span>&#8377 9000.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="photos/punjaab.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Amritsar</h3>
+            <p>
+                Home of the glorious Golden Temple, the iconic city of Amritsar, portrays the heroic character of Punjab.Amritsar is known for its lip-smacking street food
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">&#8377 7500.00 <span>&#8377 8200.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable Journeys</h3>
+          <p>
+            We strive to make the world accessible for each and every one!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>food and drinks</h3>
+          <p>
+            Comfortable stay & transport, delicious meals and abundant sightseeing on every tour
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Guided Experinces</h3>
+          <p>
+            Hassle free journeys with the expertise of our in-house Tour Managers.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>around the world</h3>
+          <p>
+            Whilst you are abroad our team is available 24 hours a day, 365 days a year should you need assistance.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>Flight Booking</h3>
+          <p>
+            Through online air ticket booking you can easily compare prices of multiple airlines to get your air tickets at lowest rates.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>Trekking</h3>
+          <p>
+            We organise treks where you are introduced to the nature, wildlife and india's mesmerising mountains.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="photos/tr (1).jpg" alt="" />
+          <div class="content">
+            <h3>Weekend Trips</h3>
+            <p>
+                Spend your weekedn at beaches, farm house and near camping site.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr2.jpg" alt="" />
+          <div class="content">
+            <h3>Cruise Packages</h3>
+            <p>
+                Partnerd with best curise compnies of the world.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr (2).jpg" alt="" />
+          <div class="content">
+            <h3>Senior Citizen Special</h3>
+            <p>
+                We have tours arranged specially for Senior citizens.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr (3).jpg" alt="" />
+          <div class="content">
+            <h3>Honeymoon tours</h3>
+            <p>
+               Handcrafted tours as per choice of you and your loved ones.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr4.jpg" alt="" />
+          <div class="content">
+            <h3>Field Trips</h3>
+            <p>
+              To get best experienceof nature, wildlife and mountains.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr5.png" alt="" />
+          <div class="content">
+            <h3>Backpacking Tours</h3>
+            <p>
+              Affordable tours and great experience. Only possible with Vacation Worthy.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr.jpg" alt="" />
+          <div class="content">
+            <h3>Education Tour</h3>
+            <p>
+              We can customised educational tours for you.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr6.jpg" alt="" />
+          <div class="content">
+            <h3>Family Tour</h3>
+            <p>
+              More than 2500 families are travelled with us.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="photos/tr.jpg" alt="" />
+          <div class="content">
+            <h3>Group Bookings</h3>
+            <p>
+              We arranged group tours on different destination.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="photos/cm (1).jpg" alt="" />
+              <h3>Amar Kunte</h3>
+              <p>
+                Being first trip of my life and that too solo, I was bit confused about my decision of solo trip but the tour manager Siddhesh More and the group made my trip much comfortable, enjoyable and ofcourse filled me with memories.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="photos/cm (2).jpg" alt="" />
+              <h3>Prashant Vardhan</h3>
+              <p>
+                Enjoy a lot, hotel and travel experience was great dint find any problem. Special thanks to tour manager s for supporting and encouraging us which made our trip memorable and we enjoyed a lot. Thank you Vacation Worthy.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="photos/cm (3).jpg" alt="" />
+              <h3>Vaishnavi Deshumukh</h3>
+              <p>सगळे sight seeings दाखवले,हो वेळेत दाखवले, कुठल्याही प्रकारची घाई,त्रास tour मधील कोणालाच नाही झाला.आम्हाला करायची संधी Vacation Worthy मुळे होवो ही सदिच्छा.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="photos/cm (4).jpg" alt="" />
+              <h3>Surya Kumar</h3>
+              <p>
+                Unforgettable experience & moments.kashmir is a true heaven on earth...Our tour manager Kunal Gorekar is a very knowledgeable person...each and every spot he explained so well....I am happy and will definitely visit Vacation Worthy trip again.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1> 
+
+      <div class="row">
+        <div class="image">
+          <img src="photos/cs.jpg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            ‘A journey of a thousand miles begins with a single step – Lao Tzu’. That single step came for Vacation Worthy in the year 2013 – the year of new foundations and the year of new beginnings! With the idea to create a world of affordable tourism and to explore as well as innovate new avenues in the travel industry, we set out on a journey to achieve ‘Our Lakshya - Bharat Ki Sabse Badi Travel Company’, a feat we are strongly working towards everyday…
+          </p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">Mumbai</a>
+          <a href="#">Bangalore</a>
+          <a href="#">Chennai</a>
+          <a href="#">Delhi</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/VacationWorthyIndia">facebook</a>
+          <a href="https://www.instagram.com/vacation_worthy/">instagram</a>
+          <a href="https://vacationworthy.medium.com/">Medium</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+         <span> Building a legacy of redefining travel, inspiring to explore and sharing reasons to celebrate life! </span> 
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="/script.js"></script>
+  </body>
+</html>
